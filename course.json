@@ -74,7 +74,7 @@
           "type": "instruction",
           "path": "instruction/piece-value/piece-value.md",
           "id": "4390b41ef7ea4deea62b551dd4474b1a",
-          "state": "stub",
+          "state": "stable",
           "description": "Understanding the relative value of each piece."
         },
         {
