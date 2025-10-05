@@ -438,7 +438,7 @@
           "type": "instruction",
           "path": "instruction/deflection/deflection.md",
           "id": "3298b86111134a03b77751f9b1416876",
-          "state": "stub",
+          "state": "stable",
           "description": "Forcing a piece to move to a less desirable square."
         },
         {
