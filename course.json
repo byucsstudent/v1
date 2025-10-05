@@ -717,7 +717,7 @@
           "type": "instruction",
           "path": "instruction/game-analysis-introduction/game-analysis-introduction.md",
           "id": "c958afcb300547b78017164b9a0e99f9",
-          "state": "stub",
+          "state": "stable",
           "description": "Introduction to analyzing chess games."
         },
         {
