@@ -1,149 +1,814 @@
 {
   "title": "Introduction to chess",
-  "description": "This course introduces the fundamentals of chess in a clear and engaging way. You learn how each piece moves, the rules of the game, and basic strategies to develop the board. Real games and master strategies demonstrate concepts. Lessons include practice games,  opening principles, forks and pins, and checkmate patterns.",
+  "links": {},
   "modules": [
     {
       "title": "Module 1: The Chessboard and Pieces",
-      "description": "Learn the chessboard layout and the movement of each piece.",
       "topics": [
-        { "title": "Overview", "description": "Course introduction and objectives.", "path": "README.md", "type": "instruction", "state": "stub" },
-        { "title": "The Chessboard Setup", "description": "Understanding the ranks, files, and diagonals.", "path": "instruction/the-chessboard-setup/the-chessboard-setup.md", "type": "instruction", "state": "stub" },
-        { "title": "The King's Movement", "description": "Learn how the king moves and its importance.", "path": "instruction/the-kings-movement/the-kings-movement.md", "type": "instruction", "state": "stub" },
-        { "title": "The Queen's Movement", "description": "Learn how the queen moves and its power.", "path": "instruction/the-queens-movement/the-queens-movement.md", "type": "instruction", "state": "stub" },
-        { "title": "The Rook's Movement", "description": "Learn how the rook moves and its strategic use.", "path": "instruction/the-rooks-movement/the-rooks-movement.md", "type": "instruction", "state": "stub" },
-        { "title": "The Bishop's Movement", "description": "Learn how the bishop moves and its diagonal control.", "path": "instruction/the-bishops-movement/the-bishops-movement.md", "type": "instruction", "state": "stub" },
-        { "title": "The Knight's Movement", "description": "Learn how the knight moves and its unique jumping ability.", "path": "instruction/the-knights-movement/the-knights-movement.md", "type": "instruction", "state": "stub" },
-        { "title": "The Pawn's Movement", "description": "Learn how the pawn moves, captures, and promotes.", "path": "instruction/the-pawns-movement/the-pawns-movement.md", "type": "instruction", "state": "stub" },
-        { "title": "Piece Value", "description": "Understanding the relative value of each piece.", "path": "instruction/piece-value/piece-value.md", "type": "instruction", "state": "stub" },
-        { "title": "Quiz: Piece Identification", "description": "Test your knowledge of the pieces.", "path": "instruction/quiz-piece-identification/quiz-piece-identification.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 1 Practice", "description": "Practice piece movement and identification.", "path": "instruction/module-1-practice/module-1-practice.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 1 Review", "description": "Review of the chessboard and pieces.", "path": "instruction/module-1-review/module-1-review.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Overview",
+          "type": "instruction",
+          "path": "README.md",
+          "id": "703bd850967243f381f7b47874cd2aa0",
+          "state": "stub",
+          "description": "Course introduction and objectives.",
+          "commit": "d752a8c51529167f7ed0bed69eaade4b986e0330"
+        },
+        {
+          "title": "The Chessboard Setup",
+          "type": "instruction",
+          "path": "instruction/the-chessboard-setup/the-chessboard-setup.md",
+          "id": "e82e9110b31e4f2db827522b2587008e",
+          "state": "stub",
+          "description": "Understanding the ranks, files, and diagonals."
+        },
+        {
+          "title": "The King's Movement",
+          "type": "instruction",
+          "path": "instruction/the-kings-movement/the-kings-movement.md",
+          "id": "ceb87e7f7f864c918c958920435c5245",
+          "state": "stub",
+          "description": "Learn how the king moves and its importance."
+        },
+        {
+          "title": "The Queen's Movement",
+          "type": "instruction",
+          "path": "instruction/the-queens-movement/the-queens-movement.md",
+          "id": "c3c68dd4495f4653929a96ff129f227a",
+          "state": "stub",
+          "description": "Learn how the queen moves and its power."
+        },
+        {
+          "title": "The Rook's Movement",
+          "type": "instruction",
+          "path": "instruction/the-rooks-movement/the-rooks-movement.md",
+          "id": "8507f96d30bd4ade9a99fc475ff3296f",
+          "state": "stub",
+          "description": "Learn how the rook moves and its strategic use."
+        },
+        {
+          "title": "The Bishop's Movement",
+          "type": "instruction",
+          "path": "instruction/the-bishops-movement/the-bishops-movement.md",
+          "id": "1bfa847c749f483880787ea2d18c5706",
+          "state": "stub",
+          "description": "Learn how the bishop moves and its diagonal control."
+        },
+        {
+          "title": "The Knight's Movement",
+          "type": "instruction",
+          "path": "instruction/the-knights-movement/the-knights-movement.md",
+          "id": "626feddb651240e4b8bfe6abb24693dc",
+          "state": "stub",
+          "description": "Learn how the knight moves and its unique jumping ability."
+        },
+        {
+          "title": "The Pawn's Movement",
+          "type": "instruction",
+          "path": "instruction/the-pawns-movement/the-pawns-movement.md",
+          "id": "da80f45d177d49ad9f2cb9a3f4466b0d",
+          "state": "stub",
+          "description": "Learn how the pawn moves, captures, and promotes."
+        },
+        {
+          "title": "Piece Value",
+          "type": "instruction",
+          "path": "instruction/piece-value/piece-value.md",
+          "id": "4390b41ef7ea4deea62b551dd4474b1a",
+          "state": "stub",
+          "description": "Understanding the relative value of each piece."
+        },
+        {
+          "title": "Quiz: Piece Identification",
+          "type": "instruction",
+          "path": "instruction/quiz-piece-identification/quiz-piece-identification.md",
+          "id": "d904ad7062c04653a8748fed2c02ceb0",
+          "state": "stub",
+          "description": "Test your knowledge of the pieces."
+        },
+        {
+          "title": "Module 1 Practice",
+          "type": "instruction",
+          "path": "instruction/module-1-practice/module-1-practice.md",
+          "id": "e95913724cc540cca132713c737de24b",
+          "state": "stub",
+          "description": "Practice piece movement and identification."
+        },
+        {
+          "title": "Module 1 Review",
+          "type": "instruction",
+          "path": "instruction/module-1-review/module-1-review.md",
+          "id": "8e008b95b7564e9789e313d7e0ca9422",
+          "state": "stub",
+          "description": "Review of the chessboard and pieces."
+        }
       ]
     },
     {
       "title": "Module 2: Basic Rules and Gameplay",
-      "description": "Learn the fundamental rules of chess and how to play a game.",
       "topics": [
-        { "title": "Starting Position", "description": "Setting up the board correctly.", "path": "instruction/starting-position/starting-position.md", "type": "instruction", "state": "stub" },
-        { "title": "Turn Order", "description": "Understanding the alternating turn sequence.", "path": "instruction/turn-order/turn-order.md", "type": "instruction", "state": "stub" },
-        { "title": "Capturing Pieces", "description": "How to capture opponent's pieces.", "path": "instruction/capturing-pieces/capturing-pieces.md", "type": "instruction", "state": "stub" },
-        { "title": "Special Moves: Castling", "description": "Learn the castling rules and benefits.", "path": "instruction/special-moves-castling/special-moves-castling.md", "type": "instruction", "state": "stub" },
-        { "title": "Special Moves: En Passant", "description": "Learn the en passant capture rule.", "path": "instruction/special-moves-en-passant/special-moves-en-passant.md", "type": "instruction", "state": "stub" },
-        { "title": "Check and Checkmate", "description": "Understanding check, checkmate, and how to avoid them.", "path": "instruction/check-and-checkmate/check-and-checkmate.md", "type": "instruction", "state": "stub" },
-        { "title": "Stalemate", "description": "Understanding stalemate and how it leads to a draw.", "path": "instruction/stalemate/stalemate.md", "type": "instruction", "state": "stub" },
-        { "title": "Draws", "description": "Other ways a game can end in a draw.", "path": "instruction/draws/draws.md", "type": "instruction", "state": "stub" },
-        { "title": "Basic Gameplay", "description": "Playing a full game from start to finish.", "path": "instruction/basic-gameplay/basic-gameplay.md", "type": "instruction", "state": "stub" },
-        { "title": "Quiz: Rules of Chess", "description": "Test your knowledge of chess rules.", "path": "instruction/quiz-rules-of-chess/quiz-rules-of-chess.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 2 Practice", "description": "Play practice games applying the rules.", "path": "instruction/module-2-practice/module-2-practice.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 2 Review", "description": "Review of basic rules and gameplay.", "path": "instruction/module-2-review/module-2-review.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Starting Position",
+          "type": "instruction",
+          "path": "instruction/starting-position/starting-position.md",
+          "id": "b8d80ce3e8a24e70b7e9e0e6c2eb5df6",
+          "state": "stub",
+          "description": "Setting up the board correctly."
+        },
+        {
+          "title": "Turn Order",
+          "type": "instruction",
+          "path": "instruction/turn-order/turn-order.md",
+          "id": "40ba7e240ff34b2cabdb9043f2505e1e",
+          "state": "stub",
+          "description": "Understanding the alternating turn sequence."
+        },
+        {
+          "title": "Capturing Pieces",
+          "type": "instruction",
+          "path": "instruction/capturing-pieces/capturing-pieces.md",
+          "id": "4445ded823f6447c99e03b18253edfc8",
+          "state": "stub",
+          "description": "How to capture opponent's pieces."
+        },
+        {
+          "title": "Special Moves: Castling",
+          "type": "instruction",
+          "path": "instruction/special-moves-castling/special-moves-castling.md",
+          "id": "2ffb669dd47d45ce93cd83dfe3bf4787",
+          "state": "stub",
+          "description": "Learn the castling rules and benefits."
+        },
+        {
+          "title": "Special Moves: En Passant",
+          "type": "instruction",
+          "path": "instruction/special-moves-en-passant/special-moves-en-passant.md",
+          "id": "bbfd5c2e9ca14ff9b3db552f93004d85",
+          "state": "stub",
+          "description": "Learn the en passant capture rule."
+        },
+        {
+          "title": "Check and Checkmate",
+          "type": "instruction",
+          "path": "instruction/check-and-checkmate/check-and-checkmate.md",
+          "id": "2381c5757d6540a28e318391724152bb",
+          "state": "stub",
+          "description": "Understanding check, checkmate, and how to avoid them."
+        },
+        {
+          "title": "Stalemate",
+          "type": "instruction",
+          "path": "instruction/stalemate/stalemate.md",
+          "id": "19d5fa3e8f7d4290a6bb9c8bedaea406",
+          "state": "stub",
+          "description": "Understanding stalemate and how it leads to a draw."
+        },
+        {
+          "title": "Draws",
+          "type": "instruction",
+          "path": "instruction/draws/draws.md",
+          "id": "7f666941a2fc48e4b54c8922512db519",
+          "state": "stub",
+          "description": "Other ways a game can end in a draw."
+        },
+        {
+          "title": "Basic Gameplay",
+          "type": "instruction",
+          "path": "instruction/basic-gameplay/basic-gameplay.md",
+          "id": "75291d601fc042edbf52730755db5b1f",
+          "state": "stub",
+          "description": "Playing a full game from start to finish."
+        },
+        {
+          "title": "Quiz: Rules of Chess",
+          "type": "instruction",
+          "path": "instruction/quiz-rules-of-chess/quiz-rules-of-chess.md",
+          "id": "0db877e3ee194806953aa1660ce130f5",
+          "state": "stub",
+          "description": "Test your knowledge of chess rules."
+        },
+        {
+          "title": "Module 2 Practice",
+          "type": "instruction",
+          "path": "instruction/module-2-practice/module-2-practice.md",
+          "id": "c7e26549b7f1494e93881481c221d693",
+          "state": "stub",
+          "description": "Play practice games applying the rules."
+        },
+        {
+          "title": "Module 2 Review",
+          "type": "instruction",
+          "path": "instruction/module-2-review/module-2-review.md",
+          "id": "55b6444169904da98ea37d0b8409a46c",
+          "state": "stub",
+          "description": "Review of basic rules and gameplay."
+        }
       ]
     },
     {
       "title": "Module 3: Opening Principles",
-      "description": "Learn the fundamental principles for starting a chess game.",
       "topics": [
-        { "title": "Control the Center", "description": "Why controlling the center is important.", "path": "instruction/control-the-center/control-the-center.md", "type": "instruction", "state": "stub" },
-        { "title": "Develop Your Pieces", "description": "Bringing your pieces into active play.", "path": "instruction/develop-your-pieces/develop-your-pieces.md", "type": "instruction", "state": "stub" },
-        { "title": "Don't Move the Same Piece Twice", "description": "Avoiding unnecessary piece movements in the opening.", "path": "instruction/dont-move-the-same-piece-twice/dont-move-the-same-piece-twice.md", "type": "instruction", "state": "stub" },
-        { "title": "Develop Knights Before Bishops", "description": "A common guideline for piece development.", "path": "instruction/develop-knights-before-bishops/develop-knights-before-bishops.md", "type": "instruction", "state": "stub" },
-        { "title": "Castle Early", "description": "Securing your king early in the game.", "path": "instruction/castle-early/castle-early.md", "type": "instruction", "state": "stub" },
-        { "title": "Don't Block Your Pawns", "description": "Avoiding pawn structures that hinder piece development.", "path": "instruction/dont-block-your-pawns/dont-block-your-pawns.md", "type": "instruction", "state": "stub" },
-        { "title": "Avoid Early Queen Development", "description": "Why early queen moves can be risky.", "path": "instruction/avoid-early-queen-development/avoid-early-queen-development.md", "type": "instruction", "state": "stub" },
-        { "title": "Opening Traps", "description": "Recognizing and avoiding common opening traps.", "path": "instruction/opening-traps/opening-traps.md", "type": "instruction", "state": "stub" },
-        { "title": "Opening Examples", "description": "Analyzing different opening moves and strategies.", "path": "instruction/opening-examples/opening-examples.md", "type": "instruction", "state": "stub" },
-        { "title": "Quiz: Opening Principles", "description": "Test your understanding of opening principles.", "path": "instruction/quiz-opening-principles/quiz-opening-principles.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 3 Practice", "description": "Practice applying opening principles in games.", "path": "instruction/module-3-practice/module-3-practice.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 3 Review", "description": "Review of opening principles.", "path": "instruction/module-3-review/module-3-review.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Control the Center",
+          "type": "instruction",
+          "path": "instruction/control-the-center/control-the-center.md",
+          "id": "7d9e7e9013524d81a47e78976a2971cb",
+          "state": "stub",
+          "description": "Why controlling the center is important."
+        },
+        {
+          "title": "Develop Your Pieces",
+          "type": "instruction",
+          "path": "instruction/develop-your-pieces/develop-your-pieces.md",
+          "id": "88dd74aeac6241e987a7d97b9d58bdb3",
+          "state": "stub",
+          "description": "Bringing your pieces into active play."
+        },
+        {
+          "title": "Don't Move the Same Piece Twice",
+          "type": "instruction",
+          "path": "instruction/dont-move-the-same-piece-twice/dont-move-the-same-piece-twice.md",
+          "id": "5d7a5a93aacf4c8aa151a37ad9f40771",
+          "state": "stub",
+          "description": "Avoiding unnecessary piece movements in the opening."
+        },
+        {
+          "title": "Develop Knights Before Bishops",
+          "type": "instruction",
+          "path": "instruction/develop-knights-before-bishops/develop-knights-before-bishops.md",
+          "id": "4ad58e57287f4f6d8d76275dadb973a8",
+          "state": "stub",
+          "description": "A common guideline for piece development."
+        },
+        {
+          "title": "Castle Early",
+          "type": "instruction",
+          "path": "instruction/castle-early/castle-early.md",
+          "id": "e65192ae6f5f482e8076ec6bb922ea52",
+          "state": "stub",
+          "description": "Securing your king early in the game."
+        },
+        {
+          "title": "Don't Block Your Pawns",
+          "type": "instruction",
+          "path": "instruction/dont-block-your-pawns/dont-block-your-pawns.md",
+          "id": "13dfbdbcd0ba4a9fadcf175153d76a54",
+          "state": "stub",
+          "description": "Avoiding pawn structures that hinder piece development."
+        },
+        {
+          "title": "Avoid Early Queen Development",
+          "type": "instruction",
+          "path": "instruction/avoid-early-queen-development/avoid-early-queen-development.md",
+          "id": "4415156544654039a35340adb1d6e35d",
+          "state": "stub",
+          "description": "Why early queen moves can be risky."
+        },
+        {
+          "title": "Opening Traps",
+          "type": "instruction",
+          "path": "instruction/opening-traps/opening-traps.md",
+          "id": "ead71cac36394a95ab4ae1f8e7e2bbca",
+          "state": "stub",
+          "description": "Recognizing and avoiding common opening traps."
+        },
+        {
+          "title": "Opening Examples",
+          "type": "instruction",
+          "path": "instruction/opening-examples/opening-examples.md",
+          "id": "da96a986f4ce48c4bb408f13ad7d4e7f",
+          "state": "stub",
+          "description": "Analyzing different opening moves and strategies."
+        },
+        {
+          "title": "Quiz: Opening Principles",
+          "type": "instruction",
+          "path": "instruction/quiz-opening-principles/quiz-opening-principles.md",
+          "id": "461a33be28f34e32803e6ccd63b1d9f7",
+          "state": "stub",
+          "description": "Test your understanding of opening principles."
+        },
+        {
+          "title": "Module 3 Practice",
+          "type": "instruction",
+          "path": "instruction/module-3-practice/module-3-practice.md",
+          "id": "98f25a44015a4bf2a0bd2c7d334e9ab5",
+          "state": "stub",
+          "description": "Practice applying opening principles in games."
+        },
+        {
+          "title": "Module 3 Review",
+          "type": "instruction",
+          "path": "instruction/module-3-review/module-3-review.md",
+          "id": "84e9268d4c7d4023a2792fbc0b51f106",
+          "state": "stub",
+          "description": "Review of opening principles."
+        }
       ]
     },
     {
       "title": "Module 4: Basic Tactics - Forks, Pins, and Skewers",
-      "description": "Learn fundamental tactical motifs to gain an advantage.",
       "topics": [
-        { "title": "What are Tactics?", "description": "Defining chess tactics and their importance.", "path": "instruction/what-are-tactics/what-are-tactics.md", "type": "instruction", "state": "stub" },
-        { "title": "Forks", "description": "Attacking two or more pieces simultaneously.", "path": "instruction/forks/forks.md", "type": "instruction", "state": "stub" },
-        { "title": "Knight Forks", "description": "Exploiting the knight's forking ability.", "path": "instruction/knight-forks/knight-forks.md", "type": "instruction", "state": "stub" },
-        { "title": "Pawn Forks", "description": "Using pawns to create forks.", "path": "instruction/pawn-forks/pawn-forks.md", "type": "instruction", "state": "stub" },
-        { "title": "Pins", "description": "Restricting a piece's movement by attacking a more valuable piece behind it.", "path": "instruction/pins/pins.md", "type": "instruction", "state": "stub" },
-        { "title": "Absolute Pins", "description": "Pins where the pinned piece cannot move without exposing the King to check.", "path": "instruction/absolute-pins/absolute-pins.md", "type": "instruction", "state": "stub" },
-        { "title": "Relative Pins", "description": "Pins where the pinned piece can still move, but at a cost.", "path": "instruction/relative-pins/relative-pins.md", "type": "instruction", "state": "stub" },
-        { "title": "Skewers", "description": "Attacking a more valuable piece, forcing it to move and expose a less valuable piece.", "path": "instruction/skewers/skewers.md", "type": "instruction", "state": "stub" },
-        { "title": "X-Ray Attacks", "description": "Understanding attacks that go through other pieces.", "path": "instruction/x-ray-attacks/x-ray-attacks.md", "type": "instruction", "state": "stub" },
-        { "title": "Quiz: Forks, Pins, and Skewers", "description": "Test your knowledge of basic chess tactics.", "path": "instruction/quiz-forks-pins-and-skewers/quiz-forks-pins-and-skewers.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 4 Practice", "description": "Practice identifying and executing tactical motifs.", "path": "instruction/module-4-practice/module-4-practice.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 4 Review", "description": "Review of forks, pins, and skewers.", "path": "instruction/module-4-review/module-4-review.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "What are Tactics?",
+          "type": "instruction",
+          "path": "instruction/what-are-tactics/what-are-tactics.md",
+          "id": "d69dc448b73c41779136a8c102701ccf",
+          "state": "stub",
+          "description": "Defining chess tactics and their importance."
+        },
+        {
+          "title": "Forks",
+          "type": "instruction",
+          "path": "instruction/forks/forks.md",
+          "id": "2669d392a42140a0a39e764e772075d3",
+          "state": "stub",
+          "description": "Attacking two or more pieces simultaneously."
+        },
+        {
+          "title": "Knight Forks",
+          "type": "instruction",
+          "path": "instruction/knight-forks/knight-forks.md",
+          "id": "a87e44312958487ca8f7f8d6c65e2991",
+          "state": "stub",
+          "description": "Exploiting the knight's forking ability."
+        },
+        {
+          "title": "Pawn Forks",
+          "type": "instruction",
+          "path": "instruction/pawn-forks/pawn-forks.md",
+          "id": "4e4bff7eb7d54596acffab793bffb50f",
+          "state": "stub",
+          "description": "Using pawns to create forks."
+        },
+        {
+          "title": "Pins",
+          "type": "instruction",
+          "path": "instruction/pins/pins.md",
+          "id": "296cd719b669482eaf7bf59e8b14c187",
+          "state": "stub",
+          "description": "Restricting a piece's movement by attacking a more valuable piece behind it."
+        },
+        {
+          "title": "Absolute Pins",
+          "type": "instruction",
+          "path": "instruction/absolute-pins/absolute-pins.md",
+          "id": "0ab762e7867f4844b49f5628cb613a8f",
+          "state": "stub",
+          "description": "Pins where the pinned piece cannot move without exposing the King to check."
+        },
+        {
+          "title": "Relative Pins",
+          "type": "instruction",
+          "path": "instruction/relative-pins/relative-pins.md",
+          "id": "b15513b02c6944eb966ccaa66348a5a1",
+          "state": "stub",
+          "description": "Pins where the pinned piece can still move, but at a cost."
+        },
+        {
+          "title": "Skewers",
+          "type": "instruction",
+          "path": "instruction/skewers/skewers.md",
+          "id": "5078a0df716a4d448150d63b6195003d",
+          "state": "stub",
+          "description": "Attacking a more valuable piece, forcing it to move and expose a less valuable piece."
+        },
+        {
+          "title": "X-Ray Attacks",
+          "type": "instruction",
+          "path": "instruction/x-ray-attacks/x-ray-attacks.md",
+          "id": "aec1b2cd7c6b4653aa4b34b37017fc69",
+          "state": "stub",
+          "description": "Understanding attacks that go through other pieces."
+        },
+        {
+          "title": "Quiz: Forks, Pins, and Skewers",
+          "type": "instruction",
+          "path": "instruction/quiz-forks-pins-and-skewers/quiz-forks-pins-and-skewers.md",
+          "id": "3dd34e01a336414c9bf55d5889810501",
+          "state": "stub",
+          "description": "Test your knowledge of basic chess tactics."
+        },
+        {
+          "title": "Module 4 Practice",
+          "type": "instruction",
+          "path": "instruction/module-4-practice/module-4-practice.md",
+          "id": "4106613370f14854883a18e1c411d8b7",
+          "state": "stub",
+          "description": "Practice identifying and executing tactical motifs."
+        },
+        {
+          "title": "Module 4 Review",
+          "type": "instruction",
+          "path": "instruction/module-4-review/module-4-review.md",
+          "id": "316d794ed06442ef96c9409903014e0f",
+          "state": "stub",
+          "description": "Review of forks, pins, and skewers."
+        }
       ]
     },
     {
       "title": "Module 5: Basic Tactics - Discoveries and Deflections",
-      "description": "Learn more tactical motifs to improve your game.",
       "topics": [
-        { "title": "Discovered Attacks", "description": "Unveiling an attack by moving a piece.", "path": "instruction/discovered-attacks/discovered-attacks.md", "type": "instruction", "state": "stub" },
-        { "title": "Discovered Checks", "description": "Unveiling a check by moving a piece.", "path": "instruction/discovered-checks/discovered-checks.md", "type": "instruction", "state": "stub" },
-        { "title": "Double Checks", "description": "Attacking the King with two pieces simultaneously.", "path": "instruction/double-checks/double-checks.md", "type": "instruction", "state": "stub" },
-        { "title": "Deflection", "description": "Forcing a piece to move to a less desirable square.", "path": "instruction/deflection/deflection.md", "type": "instruction", "state": "stub" },
-        { "title": "Overloading", "description": "Exploiting a piece that has too many defensive responsibilities.", "path": "instruction/overloading/overloading.md", "type": "instruction", "state": "stub" },
-        { "title": "Interference", "description": "Blocking a line of attack or defense.", "path": "instruction/interference/interference.md", "type": "instruction", "state": "stub" },
-        { "title": "Sacrifices", "description": "Intentionally giving up material for a tactical or strategic advantage.", "path": "instruction/sacrifices/sacrifices.md", "type": "instruction", "state": "stub" },
-        { "title": "Combination of Tactics", "description": "Using multiple tactics in a sequence.", "path": "instruction/combination-of-tactics/combination-of-tactics.md", "type": "instruction", "state": "stub" },
-        { "title": "Tactical Vision", "description": "Improving your ability to spot tactical opportunities.", "path": "instruction/tactical-vision/tactical-vision.md", "type": "instruction", "state": "stub" },
-        { "title": "Quiz: Discoveries and Deflections", "description": "Test your knowledge of advanced tactics.", "path": "instruction/quiz-discoveries-and-deflections/quiz-discoveries-and-deflections.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 5 Practice", "description": "Practice identifying and executing advanced tactical motifs.", "path": "instruction/module-5-practice/module-5-practice.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 5 Review", "description": "Review of discoveries and deflections.", "path": "instruction/module-5-review/module-5-review.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Discovered Attacks",
+          "type": "instruction",
+          "path": "instruction/discovered-attacks/discovered-attacks.md",
+          "id": "c5434b3c4e3a47738273d53ea2b6b746",
+          "state": "stub",
+          "description": "Unveiling an attack by moving a piece."
+        },
+        {
+          "title": "Discovered Checks",
+          "type": "instruction",
+          "path": "instruction/discovered-checks/discovered-checks.md",
+          "id": "b70e3b10c6274282b067409dbc1b3799",
+          "state": "stub",
+          "description": "Unveiling a check by moving a piece."
+        },
+        {
+          "title": "Double Checks",
+          "type": "instruction",
+          "path": "instruction/double-checks/double-checks.md",
+          "id": "db1259d0a63446f9a05bd03867628c24",
+          "state": "stub",
+          "description": "Attacking the King with two pieces simultaneously."
+        },
+        {
+          "title": "Deflection",
+          "type": "instruction",
+          "path": "instruction/deflection/deflection.md",
+          "id": "3298b86111134a03b77751f9b1416876",
+          "state": "stub",
+          "description": "Forcing a piece to move to a less desirable square."
+        },
+        {
+          "title": "Overloading",
+          "type": "instruction",
+          "path": "instruction/overloading/overloading.md",
+          "id": "fdd752cd90384d80b32679c730afead5",
+          "state": "stub",
+          "description": "Exploiting a piece that has too many defensive responsibilities."
+        },
+        {
+          "title": "Interference",
+          "type": "instruction",
+          "path": "instruction/interference/interference.md",
+          "id": "ce68bb1d8f0e4defa698a2d714082c1f",
+          "state": "stub",
+          "description": "Blocking a line of attack or defense."
+        },
+        {
+          "title": "Sacrifices",
+          "type": "instruction",
+          "path": "instruction/sacrifices/sacrifices.md",
+          "id": "d063caf57c3d4c61bf000058567489b0",
+          "state": "stub",
+          "description": "Intentionally giving up material for a tactical or strategic advantage."
+        },
+        {
+          "title": "Combination of Tactics",
+          "type": "instruction",
+          "path": "instruction/combination-of-tactics/combination-of-tactics.md",
+          "id": "9527736fc42f45d2b0fa7feb8febf41f",
+          "state": "stub",
+          "description": "Using multiple tactics in a sequence."
+        },
+        {
+          "title": "Tactical Vision",
+          "type": "instruction",
+          "path": "instruction/tactical-vision/tactical-vision.md",
+          "id": "627ecdbcc4aa47708c330937f4274b3d",
+          "state": "stub",
+          "description": "Improving your ability to spot tactical opportunities."
+        },
+        {
+          "title": "Quiz: Discoveries and Deflections",
+          "type": "instruction",
+          "path": "instruction/quiz-discoveries-and-deflections/quiz-discoveries-and-deflections.md",
+          "id": "c873b0b7c68848a4a698d31828e1c0b7",
+          "state": "stub",
+          "description": "Test your knowledge of advanced tactics."
+        },
+        {
+          "title": "Module 5 Practice",
+          "type": "instruction",
+          "path": "instruction/module-5-practice/module-5-practice.md",
+          "id": "7892112f43d04015afe852d5659f4c34",
+          "state": "stub",
+          "description": "Practice identifying and executing advanced tactical motifs."
+        },
+        {
+          "title": "Module 5 Review",
+          "type": "instruction",
+          "path": "instruction/module-5-review/module-5-review.md",
+          "id": "cf823409f50548b08e22d11b3e77c655",
+          "state": "stub",
+          "description": "Review of discoveries and deflections."
+        }
       ]
     },
     {
       "title": "Module 6: Checkmate Patterns",
-      "description": "Learn common checkmate patterns to finish the game.",
       "topics": [
-        { "title": "Back Rank Mate", "description": "Checkmating the king on the back rank.", "path": "instruction/back-rank-mate/back-rank-mate.md", "type": "instruction", "state": "stub" },
-        { "title": "Smothered Mate", "description": "Checkmating the king with a knight when it is surrounded by its own pieces.", "path": "instruction/smothered-mate/smothered-mate.md", "type": "instruction", "state": "stub" },
-        { "title": "Epaulette Mate", "description": "Checkmating the king with rooks or queens on either side.", "path": "instruction/epaulette-mate/epaulette-mate.md", "type": "instruction", "state": "stub" },
-        { "title": "Boden's Mate", "description": "Checkmating the king with two bishops along diagonals.", "path": "instruction/bodens-mate/bodens-mate.md", "type": "instruction", "state": "stub" },
-        { "title": "Pawn Mate", "description": "Checkmating with a pawn.", "path": "instruction/pawn-mate/pawn-mate.md", "type": "instruction", "state": "stub" },
-        { "title": "Queen and King Checkmate", "description": "Delivering checkmate with a queen and king.", "path": "instruction/queen-and-king-checkmate/queen-and-king-checkmate.md", "type": "instruction", "state": "stub" },
-        { "title": "Rook and King Checkmate", "description": "Delivering checkmate with a rook and king.", "path": "instruction/rook-and-king-checkmate/rook-and-king-checkmate.md", "type": "instruction", "state": "stub" },
-        { "title": "Two Bishops Checkmate", "description": "Delivering checkmate with two bishops and king.", "path": "instruction/two-bishops-checkmate/two-bishops-checkmate.md", "type": "instruction", "state": "stub" },
-        { "title": "Checkmate in the Opening", "description": "Recognizing early checkmate opportunities.", "path": "instruction/checkmate-in-the-opening/checkmate-in-the-opening.md", "type": "instruction", "state": "stub" },
-        { "title": "Quiz: Checkmate Patterns", "description": "Test your knowledge of checkmate patterns.", "path": "instruction/quiz-checkmate-patterns/quiz-checkmate-patterns.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 6 Practice", "description": "Practice delivering checkmates in different scenarios.", "path": "instruction/module-6-practice/module-6-practice.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 6 Review", "description": "Review of checkmate patterns.", "path": "instruction/module-6-review/module-6-review.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Back Rank Mate",
+          "type": "instruction",
+          "path": "instruction/back-rank-mate/back-rank-mate.md",
+          "id": "1f47125d0fe2494bab0551c8905dd5a7",
+          "state": "stub",
+          "description": "Checkmating the king on the back rank."
+        },
+        {
+          "title": "Smothered Mate",
+          "type": "instruction",
+          "path": "instruction/smothered-mate/smothered-mate.md",
+          "id": "4dc2e61669a647a2a8379f5b34196c39",
+          "state": "stub",
+          "description": "Checkmating the king with a knight when it is surrounded by its own pieces."
+        },
+        {
+          "title": "Epaulette Mate",
+          "type": "instruction",
+          "path": "instruction/epaulette-mate/epaulette-mate.md",
+          "id": "e07ae60f015e4768a326d5705944520a",
+          "state": "stub",
+          "description": "Checkmating the king with rooks or queens on either side."
+        },
+        {
+          "title": "Boden's Mate",
+          "type": "instruction",
+          "path": "instruction/bodens-mate/bodens-mate.md",
+          "id": "fad6d570fc6f49c083e1f5d469d64c8c",
+          "state": "stub",
+          "description": "Checkmating the king with two bishops along diagonals."
+        },
+        {
+          "title": "Pawn Mate",
+          "type": "instruction",
+          "path": "instruction/pawn-mate/pawn-mate.md",
+          "id": "4e9dddfe7f59414fb304f4c401c1ba5d",
+          "state": "stub",
+          "description": "Checkmating with a pawn."
+        },
+        {
+          "title": "Queen and King Checkmate",
+          "type": "instruction",
+          "path": "instruction/queen-and-king-checkmate/queen-and-king-checkmate.md",
+          "id": "58851b227d154bb783fa5c241e050f00",
+          "state": "stub",
+          "description": "Delivering checkmate with a queen and king."
+        },
+        {
+          "title": "Rook and King Checkmate",
+          "type": "instruction",
+          "path": "instruction/rook-and-king-checkmate/rook-and-king-checkmate.md",
+          "id": "6be1b92621864d6aaecea60e4dff7d6f",
+          "state": "stub",
+          "description": "Delivering checkmate with a rook and king."
+        },
+        {
+          "title": "Two Bishops Checkmate",
+          "type": "instruction",
+          "path": "instruction/two-bishops-checkmate/two-bishops-checkmate.md",
+          "id": "f45765578bca4f3fa4014f28ff92df6a",
+          "state": "stub",
+          "description": "Delivering checkmate with two bishops and king."
+        },
+        {
+          "title": "Checkmate in the Opening",
+          "type": "instruction",
+          "path": "instruction/checkmate-in-the-opening/checkmate-in-the-opening.md",
+          "id": "5e267e3097fc4404a3b30e64d7ac5355",
+          "state": "stub",
+          "description": "Recognizing early checkmate opportunities."
+        },
+        {
+          "title": "Quiz: Checkmate Patterns",
+          "type": "instruction",
+          "path": "instruction/quiz-checkmate-patterns/quiz-checkmate-patterns.md",
+          "id": "bbfd2c7c55f6417994f8d11cb5f4b8f2",
+          "state": "stub",
+          "description": "Test your knowledge of checkmate patterns."
+        },
+        {
+          "title": "Module 6 Practice",
+          "type": "instruction",
+          "path": "instruction/module-6-practice/module-6-practice.md",
+          "id": "8a157357563048c2974667c598dda8c5",
+          "state": "stub",
+          "description": "Practice delivering checkmates in different scenarios."
+        },
+        {
+          "title": "Module 6 Review",
+          "type": "instruction",
+          "path": "instruction/module-6-review/module-6-review.md",
+          "id": "83fc7efaf29244619e2344863d1edc7f",
+          "state": "stub",
+          "description": "Review of checkmate patterns."
+        }
       ]
     },
     {
       "title": "Module 7: Basic Endgame Principles",
-      "description": "Learn fundamental endgame techniques to secure a win or draw.",
       "topics": [
-        { "title": "King Activity", "description": "The importance of an active king in the endgame.", "path": "instruction/king-activity/king-activity.md", "type": "instruction", "state": "stub" },
-        { "title": "Opposition", "description": "Understanding and using opposition to control the board.", "path": "instruction/opposition/opposition.md", "type": "instruction", "state": "stub" },
-        { "title": "Passed Pawns", "description": "Creating and promoting passed pawns.", "path": "instruction/passed-pawns/passed-pawns.md", "type": "instruction", "state": "stub" },
-        { "title": "Rook Endgames", "description": "Basic rook endgame techniques.", "path": "instruction/rook-endgames/rook-endgames.md", "type": "instruction", "state": "stub" },
-        { "title": "King and Pawn vs. King", "description": "Winning with a king and pawn against a lone king.", "path": "instruction/king-and-pawn-vs-king/king-and-pawn-vs-king.md", "type": "instruction", "state": "stub" },
-        { "title": "Queen vs. Pawn Endgame", "description": "Winning with a queen against a pawn.", "path": "instruction/queen-vs-pawn-endgame/queen-vs-pawn-endgame.md", "type": "instruction", "state": "stub" },
-        { "title": "Triangulation", "description": "Using triangulation to gain the opposition.", "path": "instruction/triangulation/triangulation.md", "type": "instruction", "state": "stub" },
-        { "title": "Zugzwang", "description": "Understanding zugzwang and how to force it.", "path": "instruction/zugzwang/zugzwang.md", "type": "instruction", "state": "stub" },
-        { "title": "Basic Endgame Strategy", "description": "Applying strategic principles in the endgame.", "path": "instruction/basic-endgame-strategy/basic-endgame-strategy.md", "type": "instruction", "state": "stub" },
-        { "title": "Quiz: Endgame Principles", "description": "Test your knowledge of endgame principles.", "path": "instruction/quiz-endgame-principles/quiz-endgame-principles.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 7 Practice", "description": "Practice basic endgame techniques.", "path": "instruction/module-7-practice/module-7-practice.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 7 Review", "description": "Review of endgame principles.", "path": "instruction/module-7-review/module-7-review.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "King Activity",
+          "type": "instruction",
+          "path": "instruction/king-activity/king-activity.md",
+          "id": "06c3a6818ef244dfb9aa00da83c4e6b6",
+          "state": "stub",
+          "description": "The importance of an active king in the endgame."
+        },
+        {
+          "title": "Opposition",
+          "type": "instruction",
+          "path": "instruction/opposition/opposition.md",
+          "id": "bce474a520894ed5a0225d893399c3ed",
+          "state": "stub",
+          "description": "Understanding and using opposition to control the board."
+        },
+        {
+          "title": "Passed Pawns",
+          "type": "instruction",
+          "path": "instruction/passed-pawns/passed-pawns.md",
+          "id": "31400ad23e5f4a57aa4105d87f397a2c",
+          "state": "stub",
+          "description": "Creating and promoting passed pawns."
+        },
+        {
+          "title": "Rook Endgames",
+          "type": "instruction",
+          "path": "instruction/rook-endgames/rook-endgames.md",
+          "id": "534619056b09427ea93a1c977abb63c6",
+          "state": "stub",
+          "description": "Basic rook endgame techniques."
+        },
+        {
+          "title": "King and Pawn vs. King",
+          "type": "instruction",
+          "path": "instruction/king-and-pawn-vs-king/king-and-pawn-vs-king.md",
+          "id": "79390189a15d4aa48f6096bb9a05072c",
+          "state": "stub",
+          "description": "Winning with a king and pawn against a lone king."
+        },
+        {
+          "title": "Queen vs. Pawn Endgame",
+          "type": "instruction",
+          "path": "instruction/queen-vs-pawn-endgame/queen-vs-pawn-endgame.md",
+          "id": "1e3f2ad45b724a928b73c18928d3d383",
+          "state": "stub",
+          "description": "Winning with a queen against a pawn."
+        },
+        {
+          "title": "Triangulation",
+          "type": "instruction",
+          "path": "instruction/triangulation/triangulation.md",
+          "id": "8aa93c8f973b488c9c0101d1a1b42659",
+          "state": "stub",
+          "description": "Using triangulation to gain the opposition."
+        },
+        {
+          "title": "Zugzwang",
+          "type": "instruction",
+          "path": "instruction/zugzwang/zugzwang.md",
+          "id": "a4b1d3d52e814b2795a1311f3470e66e",
+          "state": "stub",
+          "description": "Understanding zugzwang and how to force it."
+        },
+        {
+          "title": "Basic Endgame Strategy",
+          "type": "instruction",
+          "path": "instruction/basic-endgame-strategy/basic-endgame-strategy.md",
+          "id": "256a1c5fe2a145adb64ca96f00f5a9d5",
+          "state": "stub",
+          "description": "Applying strategic principles in the endgame."
+        },
+        {
+          "title": "Quiz: Endgame Principles",
+          "type": "instruction",
+          "path": "instruction/quiz-endgame-principles/quiz-endgame-principles.md",
+          "id": "d0653746961742d08db016036fd48d04",
+          "state": "stub",
+          "description": "Test your knowledge of endgame principles."
+        },
+        {
+          "title": "Module 7 Practice",
+          "type": "instruction",
+          "path": "instruction/module-7-practice/module-7-practice.md",
+          "id": "1f801f512c3c42c68453dbbdb5d5a135",
+          "state": "stub",
+          "description": "Practice basic endgame techniques."
+        },
+        {
+          "title": "Module 7 Review",
+          "type": "instruction",
+          "path": "instruction/module-7-review/module-7-review.md",
+          "id": "14ff89d0006a4ec39baae5f4f9ddceec",
+          "state": "stub",
+          "description": "Review of endgame principles."
+        }
       ]
     },
     {
       "title": "Module 8: Capstone Project - Analyzing and Playing a Complete Game",
-      "description": "Integrate all the knowledge learned throughout the course to analyze and play a full chess game.",
       "topics": [
-        { "title": "Game Analysis Introduction", "description": "Introduction to analyzing chess games.", "path": "instruction/game-analysis-introduction/game-analysis-introduction.md", "type": "instruction", "state": "stub" },
-        { "title": "Selecting a Game", "description": "Choosing a game to analyze.", "path": "instruction/selecting-a-game/selecting-a-game.md", "type": "instruction", "state": "stub" },
-        { "title": "Opening Analysis", "description": "Analyzing the opening moves and evaluating the opening.", "path": "instruction/opening-analysis/opening-analysis.md", "type": "instruction", "state": "stub" },
-        { "title": "Middlegame Analysis", "description": "Analyzing the middlegame tactics and strategy.", "path": "instruction/middlegame-analysis/middlegame-analysis.md", "type": "instruction", "state": "stub" },
-        { "title": "Endgame Analysis", "description": "Analyzing the endgame techniques and evaluating the endgame.", "path": "instruction/endgame-analysis/endgame-analysis.md", "type": "instruction", "state": "stub" },
-        { "title": "Identifying Key Moments", "description": "Pinpointing critical moments in the game.", "path": "instruction/identifying-key-moments/identifying-key-moments.md", "type": "instruction", "state": "stub" },
-        { "title": "Alternative Moves", "description": "Exploring alternative moves and their consequences.", "path": "instruction/alternative-moves/alternative-moves.md", "type": "instruction", "state": "stub" },
-        { "title": "Lessons Learned", "description": "Drawing conclusions and lessons from the game.", "path": "instruction/lessons-learned/lessons-learned.md", "type": "instruction", "state": "stub" },
-        { "title": "Playing a Full Game with Analysis", "description": "Playing a full game and documenting your thought process.", "path": "instruction/playing-a-full-game-with-analysis/playing-a-full-game-with-analysis.md", "type": "instruction", "state": "stub" },
-        { "title": "Quiz: Game Analysis", "description": "Test your ability to analyze chess games.", "path": "instruction/quiz-game-analysis/quiz-game-analysis.md", "type": "instruction", "state": "stub" },
-        { "title": "Capstone Project Submission", "description": "Submit your game analysis for review.", "path": "instruction/capstone-project-submission/capstone-project-submission.md", "type": "instruction", "state": "stub" },
-        { "title": "Course Conclusion", "description": "Final thoughts and next steps in your chess journey.", "path": "instruction/course-conclusion/course-conclusion.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Game Analysis Introduction",
+          "type": "instruction",
+          "path": "instruction/game-analysis-introduction/game-analysis-introduction.md",
+          "id": "c958afcb300547b78017164b9a0e99f9",
+          "state": "stub",
+          "description": "Introduction to analyzing chess games."
+        },
+        {
+          "title": "Selecting a Game",
+          "type": "instruction",
+          "path": "instruction/selecting-a-game/selecting-a-game.md",
+          "id": "f91e7fa4355c44038742e29dbff30f12",
+          "state": "stub",
+          "description": "Choosing a game to analyze."
+        },
+        {
+          "title": "Opening Analysis",
+          "type": "instruction",
+          "path": "instruction/opening-analysis/opening-analysis.md",
+          "id": "2f2f7c45728e4ed39178d4d804775f6e",
+          "state": "stub",
+          "description": "Analyzing the opening moves and evaluating the opening."
+        },
+        {
+          "title": "Middlegame Analysis",
+          "type": "instruction",
+          "path": "instruction/middlegame-analysis/middlegame-analysis.md",
+          "id": "25d0515cc71c41d09b952d7685fcea95",
+          "state": "stub",
+          "description": "Analyzing the middlegame tactics and strategy."
+        },
+        {
+          "title": "Endgame Analysis",
+          "type": "instruction",
+          "path": "instruction/endgame-analysis/endgame-analysis.md",
+          "id": "03c7abf3f49042fbbbfc77e7c78316c5",
+          "state": "stub",
+          "description": "Analyzing the endgame techniques and evaluating the endgame."
+        },
+        {
+          "title": "Identifying Key Moments",
+          "type": "instruction",
+          "path": "instruction/identifying-key-moments/identifying-key-moments.md",
+          "id": "22b0db8cbd494de2825813023705fded",
+          "state": "stub",
+          "description": "Pinpointing critical moments in the game."
+        },
+        {
+          "title": "Alternative Moves",
+          "type": "instruction",
+          "path": "instruction/alternative-moves/alternative-moves.md",
+          "id": "72e139b4a22e4db68fcabface4a21135",
+          "state": "stub",
+          "description": "Exploring alternative moves and their consequences."
+        },
+        {
+          "title": "Lessons Learned",
+          "type": "instruction",
+          "path": "instruction/lessons-learned/lessons-learned.md",
+          "id": "4a50c1621ce14a17bb4cdf2cabbd2e56",
+          "state": "stub",
+          "description": "Drawing conclusions and lessons from the game."
+        },
+        {
+          "title": "Playing a Full Game with Analysis",
+          "type": "instruction",
+          "path": "instruction/playing-a-full-game-with-analysis/playing-a-full-game-with-analysis.md",
+          "id": "0401e377d1a04e3190c25e46f063a295",
+          "state": "stub",
+          "description": "Playing a full game and documenting your thought process."
+        },
+        {
+          "title": "Quiz: Game Analysis",
+          "type": "instruction",
+          "path": "instruction/quiz-game-analysis/quiz-game-analysis.md",
+          "id": "f9970a3b65524ff4b172cd39f5d3c960",
+          "state": "stub",
+          "description": "Test your ability to analyze chess games."
+        },
+        {
+          "title": "Capstone Project Submission",
+          "type": "instruction",
+          "path": "instruction/capstone-project-submission/capstone-project-submission.md",
+          "id": "e1ce79d83eb448da86dfcda9b6b681ba",
+          "state": "stub",
+          "description": "Submit your game analysis for review."
+        },
+        {
+          "title": "Course Conclusion",
+          "type": "instruction",
+          "path": "instruction/course-conclusion/course-conclusion.md",
+          "id": "7a141f2450ce45df980156f1e4a18b7a",
+          "state": "stub",
+          "description": "Final thoughts and next steps in your chess journey."
+        }
       ]
     }
   ]
