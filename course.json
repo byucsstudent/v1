@@ -515,7 +515,7 @@
           "type": "instruction",
           "path": "instruction/back-rank-mate/back-rank-mate.md",
           "id": "1f47125d0fe2494bab0551c8905dd5a7",
-          "state": "stub",
+          "state": "stable",
           "description": "Checkmating the king on the back rank."
         },
         {
