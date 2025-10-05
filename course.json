@@ -18,7 +18,7 @@
           "type": "instruction",
           "path": "instruction/the-chessboard-setup/the-chessboard-setup.md",
           "id": "e82e9110b31e4f2db827522b2587008e",
-          "state": "stub",
+          "state": "stable",
           "description": "Understanding the ranks, files, and diagonals."
         },
         {
