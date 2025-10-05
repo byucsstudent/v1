@@ -616,7 +616,7 @@
           "type": "instruction",
           "path": "instruction/king-activity/king-activity.md",
           "id": "06c3a6818ef244dfb9aa00da83c4e6b6",
-          "state": "stub",
+          "state": "stable",
           "description": "The importance of an active king in the endgame."
         },
         {
