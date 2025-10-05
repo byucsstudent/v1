@@ -664,7 +664,7 @@
           "type": "instruction",
           "path": "instruction/triangulation/triangulation.md",
           "id": "8aa93c8f973b488c9c0101d1a1b42659",
-          "state": "stub",
+          "state": "stable",
           "description": "Using triangulation to gain the opposition."
         },
         {
