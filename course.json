@@ -10,9 +10,8 @@
           "type": "instruction",
           "path": "README.md",
           "id": "703bd850967243f381f7b47874cd2aa0",
-          "state": "stub",
-          "description": "Course introduction and objectives.",
-          "commit": "d752a8c51529167f7ed0bed69eaade4b986e0330"
+          "state": "stable",
+          "description": "Course introduction and objectives."
         },
         {
           "title": "The Chessboard Setup",
