@@ -119,7 +119,7 @@
           "type": "instruction",
           "path": "instruction/turn-order/turn-order.md",
           "id": "40ba7e240ff34b2cabdb9043f2505e1e",
-          "state": "stub",
+          "state": "stable",
           "description": "Understanding the alternating turn sequence."
         },
         {
