@@ -741,7 +741,7 @@
           "type": "instruction",
           "path": "instruction/middlegame-analysis/middlegame-analysis.md",
           "id": "25d0515cc71c41d09b952d7685fcea95",
-          "state": "stub",
+          "state": "stable",
           "description": "Analyzing the middlegame tactics and strategy."
         },
         {
