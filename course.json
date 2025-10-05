@@ -111,7 +111,7 @@
           "type": "instruction",
           "path": "instruction/starting-position/starting-position.md",
           "id": "b8d80ce3e8a24e70b7e9e0e6c2eb5df6",
-          "state": "stub",
+          "state": "stable",
           "description": "Setting up the board correctly."
         },
         {
