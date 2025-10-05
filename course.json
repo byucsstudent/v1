@@ -159,7 +159,7 @@
           "type": "instruction",
           "path": "instruction/stalemate/stalemate.md",
           "id": "19d5fa3e8f7d4290a6bb9c8bedaea406",
-          "state": "stub",
+          "state": "stable",
           "description": "Understanding stalemate and how it leads to a draw."
         },
         {
