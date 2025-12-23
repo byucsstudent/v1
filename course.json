@@ -6,11 +6,11 @@
       "title": "Module 1: The Chessboard and Pieces",
       "topics": [
         {
-          "title": "Overview",
+          "title": "Welcome",
           "type": "instruction",
           "path": "README.md",
           "id": "703bd850967243f381f7b47874cd2aa0",
-          "state": "stable",
+          "state": "published",
           "description": "Course introduction and objectives."
         },
         {
@@ -18,7 +18,7 @@
           "type": "instruction",
           "path": "instruction/the-chessboard-setup/the-chessboard-setup.md",
           "id": "e82e9110b31e4f2db827522b2587008e",
-          "state": "stable",
+          "state": "published",
           "description": "Understanding the ranks, files, and diagonals."
         },
         {
@@ -26,7 +26,7 @@
           "type": "instruction",
           "path": "instruction/the-kings-movement/the-kings-movement.md",
           "id": "ceb87e7f7f864c918c958920435c5245",
-          "state": "stable",
+          "state": "published",
           "description": "Learn how the king moves and its importance."
         },
         {
@@ -74,7 +74,7 @@
           "type": "instruction",
           "path": "instruction/piece-value/piece-value.md",
           "id": "4390b41ef7ea4deea62b551dd4474b1a",
-          "state": "stable",
+          "state": "published",
           "description": "Understanding the relative value of each piece."
         },
         {
@@ -111,7 +111,7 @@
           "type": "instruction",
           "path": "instruction/starting-position/starting-position.md",
           "id": "b8d80ce3e8a24e70b7e9e0e6c2eb5df6",
-          "state": "stable",
+          "state": "published",
           "description": "Setting up the board correctly."
         },
         {
@@ -119,7 +119,7 @@
           "type": "instruction",
           "path": "instruction/turn-order/turn-order.md",
           "id": "40ba7e240ff34b2cabdb9043f2505e1e",
-          "state": "stable",
+          "state": "published",
           "description": "Understanding the alternating turn sequence."
         },
         {
@@ -159,7 +159,7 @@
           "type": "instruction",
           "path": "instruction/stalemate/stalemate.md",
           "id": "19d5fa3e8f7d4290a6bb9c8bedaea406",
-          "state": "stable",
+          "state": "published",
           "description": "Understanding stalemate and how it leads to a draw."
         },
         {
@@ -438,7 +438,7 @@
           "type": "instruction",
           "path": "instruction/deflection/deflection.md",
           "id": "3298b86111134a03b77751f9b1416876",
-          "state": "stable",
+          "state": "published",
           "description": "Forcing a piece to move to a less desirable square."
         },
         {
@@ -515,7 +515,7 @@
           "type": "instruction",
           "path": "instruction/back-rank-mate/back-rank-mate.md",
           "id": "1f47125d0fe2494bab0551c8905dd5a7",
-          "state": "stable",
+          "state": "published",
           "description": "Checkmating the king on the back rank."
         },
         {
@@ -616,7 +616,7 @@
           "type": "instruction",
           "path": "instruction/king-activity/king-activity.md",
           "id": "06c3a6818ef244dfb9aa00da83c4e6b6",
-          "state": "stable",
+          "state": "published",
           "description": "The importance of an active king in the endgame."
         },
         {
@@ -664,7 +664,7 @@
           "type": "instruction",
           "path": "instruction/triangulation/triangulation.md",
           "id": "8aa93c8f973b488c9c0101d1a1b42659",
-          "state": "stable",
+          "state": "published",
           "description": "Using triangulation to gain the opposition."
         },
         {
@@ -717,7 +717,7 @@
           "type": "instruction",
           "path": "instruction/game-analysis-introduction/game-analysis-introduction.md",
           "id": "c958afcb300547b78017164b9a0e99f9",
-          "state": "stable",
+          "state": "published",
           "description": "Introduction to analyzing chess games."
         },
         {
@@ -741,7 +741,7 @@
           "type": "instruction",
           "path": "instruction/middlegame-analysis/middlegame-analysis.md",
           "id": "25d0515cc71c41d09b952d7685fcea95",
-          "state": "stable",
+          "state": "published",
           "description": "Analyzing the middlegame tactics and strategy."
         },
         {
@@ -781,7 +781,7 @@
           "type": "instruction",
           "path": "instruction/playing-a-full-game-with-analysis/playing-a-full-game-with-analysis.md",
           "id": "0401e377d1a04e3190c25e46f063a295",
-          "state": "stable",
+          "state": "published",
           "description": "Playing a full game and documenting your thought process."
         },
         {
